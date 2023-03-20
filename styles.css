@@ -4,7 +4,7 @@ body {
 	font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-  background-color: rgba(233, 230, 230, 0.555);
+  background-color: white;
 	margin: 0;
 	padding: 0;
 }
@@ -12,6 +12,9 @@ body {
 #main {
 	display: flex;
 	flex-direction: column;
+	margin: 2% 1% 2% 1%;
+	background-color: rgb(240, 238, 238);
+	border-radius: .5%;
 }
 
 .title {
@@ -37,6 +40,7 @@ body {
 	flex-basis: auto;
 	height: auto;
 	font-size: 35px;
+	margin: 0% 1% 1% 1%;
 }
 
 .image img {
@@ -46,4 +50,13 @@ body {
 
 .blogquote {
 	font-style: italic;
+}
+
+h4 {
+	font-size: 38px;
+}
+
+.p1 {
+	font-style: light;
+	font-size: 32.5px;
 }
